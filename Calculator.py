@@ -1,3 +1,4 @@
+#Created by Cyclops!
 import time
 
 monthlyPayment = 0
@@ -31,6 +32,7 @@ time.sleep(1)
 strLoan = input("Enter your loan amount ($): ")
 strInterestRate = input("What's the interest rate on the loan amount (%):  ")
 strLoanDurationInYears = input("Estimted time for payback of loan (Years): " )
+
 
 loanDurationInYears = float(strLoanDurationInYears)
 loan = float(strLoan)
